@@ -5,8 +5,8 @@ function feetToMile(feet){
      for(var i=0 ; i<feet.length; i++){
           if(feet[i]>0)
           {
-             var convert_to_Mile = feet[i]/5280; // 1 mile = 5280 feet
-             mile.push(convert_to_Mile.toFixed(5));
+             var convertToMile = feet[i]/5280; // 1 mile = 5280 feet
+             mile.push(convertToMile.toFixed(5));
           }
         else
             {
@@ -16,7 +16,7 @@ function feetToMile(feet){
      }
      return mile;
  }
- var feet = [50000, -1000];
+ var feet = [10000, -1000];
  var result = feetToMile(feet);
  
  console.log(result);
