@@ -65,3 +65,14 @@ var output = brickCalculator(45);
 console.log("Total number of bricks you will need:", output, "units"); 
 
 
+// // // ---------------------------tinyFriend----------------------------
+
+function tinyFriend(friendsName){
+    return friendsName.sort((currentName, smallestName) => currentName.length - smallestName.length)[0];
+  }
+friendsName = ["Bindu", "Ami", "Tumi", "Pani", "Chini"];
+let nameOutput = tinyFriend(friendsName);
+console.log("The tinyFriend is:", nameOutput);
+ 
+
+
