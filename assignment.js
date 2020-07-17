@@ -2,8 +2,8 @@
 
 function feetToMile(feet){
     var mile=[];
-     for(var i=0 ; i<feet.length; i++){
-          if(feet[i]>0)
+     for(var i = 0; i < feet.length; i++){
+          if(feet[i] > 0)
           {
              var convertToMile = feet[i]/5280; // 1 mile = 5280 feet
              mile.push(convertToMile.toFixed(5));
@@ -70,7 +70,7 @@ console.log("Total number of bricks you will need:", output, "units");
 function tinyFriend(friendsName){
     return friendsName.sort((currentName, smallestName) => currentName.length - smallestName.length)[0];
   }
-friendsName = ["Bindu", "Ami", "Tumi", "Pani", "Chini"];
+friendsName = ["Bindu", "Ami", "Tumi", "Pani", "Chiniii"];
 let nameOutput = tinyFriend(friendsName);
 console.log("The tinyFriend is:", nameOutput);
  
